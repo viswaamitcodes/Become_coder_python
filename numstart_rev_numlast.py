@@ -11,7 +11,7 @@ for i in n:
         s=i
 c=int(num)
 while c:
-     r=c%10
-     c=c//10
-     num2=num2*10+r
+    r=c%10
+    c=c//10
+    num2=num2*10+r
 print(f"{q}{num2}{s}")
