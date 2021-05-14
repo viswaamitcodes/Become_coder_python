@@ -1,7 +1,6 @@
 n=input()
 min=int(n[0])
 max=int(n[0])
-c=p=1
 for i in n:
     i=int(i)
     if (i>max):
