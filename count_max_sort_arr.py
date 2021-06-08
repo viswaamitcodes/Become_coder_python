@@ -8,7 +8,7 @@ def max_sort(n,data):
             if arr_len<c :
                 arr_len=c
             c=0
-    if c>arr_len: 
+    if c>=arr_len: 
         arr_len=c+1 
     return arr_len
 print(max_sort(n,data))
